@@ -8,6 +8,19 @@
 
 A modern, interactive counter application showcasing React and Redux Toolkit integration with a sleek Bootstrap UI.
 
+## 📸 Screenshots
+
+<div align="center">
+  <p><strong>Counter Application</strong></p>
+  <img src="screenshots/counter-app.png" alt="Counter Application" width="600px"/>
+  
+  <p><strong>Normal Mode</strong></p>
+  <img src="screenshots/counter-normal.png" alt="Normal Mode" width="600px"/>
+  
+  <p><strong>Privacy Mode</strong></p>
+  <img src="screenshots/counter-privacy.png" alt="Privacy Mode" width="600px"/>
+</div>
+
 ## ✨ Features
 
 ### 🎯 Core Functionality
