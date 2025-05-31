@@ -1,12 +1,12 @@
 import { useRef } from "react";
 import { useDispatch } from "react-redux";
 import { counterActions } from "../store/counterSlice";
+import { privacyActions } from "../store/privacySlice";
 
 
 const Controls = () => {
 
   const dispatch = useDispatch();
-
   const inputElement = useRef();
 
   const handleIncrement = () => {
@@ -19,17 +19,21 @@ const Controls = () => {
   }
 
   const handlePrivacyToggle = () => {
-    dispatch(counterActions.privacyToggle());
+    dispatch(privacyActions.privacyToggle());
 
   }
 
   const handleAddButton = () => {
 
-    dispatch(counterActions.add());
+    dispatch(counterActions.add(inputElement.current.value));
+    inputElement.current.value = "";
 
   }
 
   const handleSubtractButton = () => {
+
+    dispatch(counterActions.subtract(inputElement.current.value));
+    inputElement.current.value = "";
 
   }
 

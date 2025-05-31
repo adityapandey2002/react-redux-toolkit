@@ -1,7 +1,7 @@
 const PrivacyMessage = () => {
   return (
     <div className="alert alert-info" role="alert">
-      We care about your data privacy.
+      Now data becomes private.
     </div>
   );
 }
