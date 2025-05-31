@@ -1,6 +1,7 @@
 # React Redux Counter Application 🚀
 
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-Toolkit-purple.svg)](https://redux-toolkit.js.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0-blueviolet.svg)](https://getbootstrap.com/)
 [![Vite](https://img.shields.io/badge/Vite-Latest-yellow.svg)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -46,21 +47,24 @@ src/
 │   ├── counterSlice    # 🔄 Counter logic
 │   ├── privacySlice    # 🛡️ Privacy state
 │   └── index           # 🏪 Store config
-└── App.jsx             # 📱 Root component
+├── assets/             # Static assets
+├── App.jsx             # 📱 Root component
+├── App.css             # 🎨 Styles
+└── main.jsx           # 🚀 Entry point
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v14+ recommended)
-- npm or yarn
+- npm
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd react-redux-counter
+git clone https://github.com/your-username/react-redux-counter.git
+cd react-redux
 ```
 
 2. Install dependencies:
